@@ -1,0 +1,139 @@
+body {
+  background:#fff url(../images/bg.gif) no-repeat top left;
+  font:11px Verdana,Arial,Helvetica,sans-serif;
+}
+h1 {
+  font:bold 2em  Verdana,Arial,Helvetica,sans-serif;
+}
+.trashcan {
+  border:0;
+  margin:2px 0;
+  padding:0;
+  float:right;
+}
+/* layout */
+#page {
+  position:relative;
+  margin:150px 0 0 0;
+  width:100%;
+}
+#forms, #rallydata, #login {
+  position:absolute;
+}
+#forms {
+  top:0px;
+  left:0px;
+  width:200px;
+}
+#rallydata {
+  top:0px;
+  left:250px;
+  width:550px;
+}
+#login {
+  top:150px;
+  left:20px;
+  width:260px;
+}
+#rallydata table {
+  border:1px solid #ddd;
+}
+#rallydata td {
+  border:1px solid #eee;
+}
+/* driver colors */
+.rob, .ant, .david, .gingo, .robnew, .antnew, .davidnew, .gingonew {
+  color:#fff;
+  font-weight:bold;
+}
+.rob, .robnew {
+  background-color:#c33;
+}
+.david, .davidnew {
+  background-color:#33c;
+}
+.ant, .antnew {
+  background-color:#666;
+}
+.gingo, .gingonew {
+  background-color:#f60;
+}
+#rallydata td.robnew {
+  border-color:#c3c;
+}
+#rallydata td.antnew {
+  border-color:#f00;
+}
+#rallydata td.davidnew {
+  border-color:#ff0;
+}
+#rallydata td.gingonew {
+  border-color:#0f0;
+}
+/* forms layout */
+a.button {
+  text-decoration:none;
+  margin:1px;
+  padding:2px;
+  background-color:#ccc;
+  color:#000;
+  display:block;
+  width:150px;
+}
+a.button:hover, a.button:visited:hover {
+  background-color:#999;
+  color:#fff;
+}
+fieldset {
+  color:#999;
+  border:1px solid #999;
+  text-align:center;
+  padding:5px;
+}
+/* time entry form */
+#entryform select, #rallyform select {
+  margin:10px 0px;
+  background-color:#eee;
+  width:170px;
+}
+#entryform input.time, #rallyform input.time {
+  width:38px;
+  border:1px solid #ccc;
+  background-color:#eee;
+  text-align:right;
+}
+#entryform input.button {
+  width:30px;
+  margin:0 2px;
+  border:1px solid #ccc;
+  background-color:#eee;
+  text-align:center;
+}
+/* login form */
+#login label {
+  margin:0px 5px 0px 0px;
+  float:left;
+  text-align:right;
+  width:120px;
+}
+#login input {
+  float:left;
+  width:100px;
+  border:1px solid #ccc;
+  margin:2px;
+}
+#login .submit {
+  margin:0 0 0 127px;
+  border:1px solid #ccc;
+  background-color:#eee;
+  width:100px;
+  text-align:center;
+}
+/* logout form */
+#logoutform input {
+  width:80px;
+  border:1px solid #ccc;
+  margin:2px;
+  color:#000;
+  background-color:#eee;
+}
